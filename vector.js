@@ -81,18 +81,16 @@ class Vector
   {
     return Vector.Magnitude(Vector.Subtract(a,b));
   }
-  static Angle(a,b, degrees = true)
+  static Angle(a,b)
   {
     let d = Vector.Dot(a,b);
     let radians = Math.acos(d);
-    if (degrees)
-      return radians * 57.2958;
     return radians;
   }
   static AngleAxis(euler)
   {
-    let pitch = euler[0] * 0.0174533;
-    let yaw = euler[1] * 0.0174533;
+    let pitch = euler[0];
+    let yaw = euler[1];
     let x = -Math.sin(yaw);//Math.sin(yaw) * Math.sin(pitch);
     let y = Math.sin(pitch);//Math.cos(yaw) * Math.sin(pitch);
     let z = Math.cos(yaw);
