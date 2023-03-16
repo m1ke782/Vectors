@@ -18,3 +18,10 @@ let myMatrix =
 ];
 ```
 This matrix has two rows and three columns.
+
+## Vector Functions
+Here is a list of all functions you can perform on vectors. These functions are static members of "Vector", to avoid clutter.
+
+| Function | Arguments | Description |
+| --- | --- | --- |
+| Equals | vector, vector | Returns a bool showing whether the two vectors are equal.
