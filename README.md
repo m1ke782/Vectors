@@ -35,7 +35,7 @@ Here is a list of all functions you can perform on vectors. These functions are 
 | Magnitude | vector | Returns the magnitude of the vector. |
 | Distance | vector, vector | Returns the distance between the two given position vectors. |
 | Cross | vector, vector | Returns the cross (vector) product of the two vectors |
-| Angle | vector, vector, (bool=true) | Returns the angle between the two vectors. Boolean specifies the unit (default is degrees). |
+| Angle | vector, vector | Returns the angle between the two vectors. |
 | Normalise | vector | Returns the normalised vector. |
 | Reflect | vector, vector | Returns the first vector reflected along the second vector as a normal. |
 | Random | int | Returns a random vector with specified dimension. Bool specified whether the vector should be normalised. |
